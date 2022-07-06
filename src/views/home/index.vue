@@ -166,67 +166,67 @@ export default {
       circle_percentage: -1,
       // 设备分布图 展示设备分组情况
       options: {
-        type: "bar",
+        type: 'bar',
         title: {
-          text: "设备分布图",
+          text: '设备分布图'
         },
-        labels: ["分组1", "分组2", "分组3", "分组4"],
+        labels: ['分组1', '分组2', '分组3', '分组4'],
         datasets: [
           {
-            label: "设备数量",
-            data: [1, 0, 0, 0],
-          },
-        ],
+            label: '设备数量',
+            data: [1, 0, 0, 0]
+          }
+        ]
       },
       // 计划审核提醒
       tableData: [{
         index: 1,
         name: '测试001',
         status: '发布成功',
-        date: '2016-05-03',
-        people: '周禹江',
+        date: '2022-07-03',
+        people: '111',
         option: '发布图片'
       }, {
         index: 2,
         name: '测试002',
         status: '发布失败',
         date: '2022-06-28',
-        people: '邱哲朋',
+        people: '222',
         option: '你管我发布啥'
       }, {
         index: 3,
         name: '测试003',
         status: '发布中',
-        date: '2022-06-28',
-        people: '郑瑞焓',
+        date: '2022-07-01',
+        people: '333',
         option: '发布图片、视频、公告'
       }, {
         index: 4,
         name: '测试004',
         status: '发布成功',
-        date: '2022-06-28',
-        people: '张晶',
+        date: '2022-07-03',
+        people: '333',
         option: '发布图片'
       }, {
         index: 5,
         name: '测试005',
         status: '发布成功',
-        date: '2022-06-28',
-        people: 'zyj',
+        date: '2022-07-03',
+        people: 'mxk',
         option: '发布图片'
       }, {
         index: 6,
         name: '测试006',
         status: '发布失败',
-        date: '2022-06-28',
-        people: 'zj',
+        date: '2022-07-05',
+        people: 'mxk',
         option: '发布公告'
       }, {
         index: 7,
         name: '测试007',
         status: '发布中',
         date: '2022-06-28',
-        people: 'qks',
+        people: 'mxk',
         option: '发布视频'
       }]
     }
